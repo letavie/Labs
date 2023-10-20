@@ -9,8 +9,7 @@ const filmsData = [
   },
   {
     id: 2,
-    image:
-      "../../img/blackClover.jpg ",
+    image: require("../../img/blackClover.jpg"),
     title: "Black Clover (TV)",
     year: "2017",
     nation: "Japan",
@@ -18,8 +17,7 @@ const filmsData = [
   },
   {
     id: 3,
-    image:
-      "../../img/dietQuy.jpg",
+    image: require("../../img/dietQuy.jpg"),
     title: "Thanh Gươm Diệt Quỷ",
     year: "2021",
     nation: "Japan",
@@ -27,8 +25,7 @@ const filmsData = [
   },
   {
     id: 4,
-    image:
-      "../../img/Conan.jpg",
+    image: require("../../img/Conan.jpg"),
     title: "Thám Tử Lừng Danh Conan",
     year: "1996",
     nation: "Japan",
@@ -36,8 +33,7 @@ const filmsData = [
   },
   {
     id: 5,
-    image:
-      "../../img/bleach.jpg",
+    image: require("../../img/bleach.jpg"),
     title: "Bleach",
     year: "2004",
     nation: "Japan",
@@ -45,8 +41,7 @@ const filmsData = [
   },
   {
     id: 6,
-    image:
-      "../../img/dauladailuc.jpg",
+    image: require("../../img/dauladailuc.jpg"),
     title: "Đấu La Đại Lục",
     year: "2018",
     nation: "China",
@@ -54,8 +49,7 @@ const filmsData = [
   },
   {
     id: 7,
-    image:
-      "../../img/chuthuatsu.jpg",
+    image: require("../../img/chuthuatsu.jpg"),
     title: "Jujutsu Kaisen",
     year: "2020",
     nation: "Japan",
@@ -63,8 +57,7 @@ const filmsData = [
   },
   {
     id: 8,
-    image:
-      "../../img/naruto.jpg",
+    image: require("../../img/naruto.jpg"),
     title: "Naruto: Sức Mạnh Vĩ Thú",
     year: "2007",
     nation: "Japan",
@@ -72,8 +65,7 @@ const filmsData = [
   },
   {
     id: 9,
-    image:
-      "../../img/hunterx.jpg",
+    image: require("../../img/hunterx.jpg"),
     title: "Hunter x Hunter, HxH ",
     year: "2011",
     nation: "Japan",
