@@ -2,10 +2,11 @@ import React, { useState, useEffect } from "react";
 import filmsData from "../ListOfFilms/ListOfFilms";
 import { Link } from "react-router-dom";
 import "./Films.css";
-
+import Navbar from "../Navbar/Navbar";
 //import icon
-import DarkModeIcon from "@mui/icons-material/DarkMode";
+
 import Brightness4Icon from "@mui/icons-material/Brightness4";
+import Brightness7Icon from "@mui/icons-material/Brightness7";
 
 const Films = () => {
   const [theme, setTheme] = useState(false);
@@ -23,14 +24,16 @@ const Films = () => {
   });
 
   return (
-    <div>
-      <div className="nav"></div>
+    <div className="container">
+      <div className="nav">
+        <Navbar theme={theme} />
+      </div>
 
       <div className="body-container">
         <div className="toggleTheme">
           <button onClick={toggleTheme}>
             {/* {isDarkMode ? setLightTheme : setDarkTheme} */}
-            {theme ? <Brightness4Icon /> : <DarkModeIcon />}
+            {theme ? <Brightness7Icon /> : <Brightness4Icon />}
           </button>
         </div>
         <div className="films-container">

@@ -1,0 +1,32 @@
+/* .film-detail {
+  display: flex;
+  color: white;
+  margin-top: 40px;
+}
+.film-detail .info {
+  margin-left: 40px;
+}
+.film-detail .info .title {
+  color: #b5e745;
+  font-weight: 300;
+  font-size: 1.875rem;
+  padding-bottom: 20px;
+}
+.film-detail .info .year,
+.film-detail .info .nation {
+  padding-top: 20px;
+  color: #b5e745;
+}
+.film-detail .info .year span,
+.film-detail .info .nation span {
+  color: white;
+}
+.film-detail .info .des {
+  max-width: 650px;
+  margin-top: 20px;
+  font-size: 13px;
+  line-height: 1.5;
+  font-weight: 300;
+  font-family: Verdana, Geneva, Tahoma, sans-serif, sans-serif;
+  opacity: 0.7;
+} */

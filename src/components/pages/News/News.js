@@ -1,3 +1,4 @@
+import "./New.css";
 function News() {
   return (
     <div>

@@ -1,31 +1,22 @@
 import image from "../../../img/personWeb.png";
-
+import "./About.css";
 function About() {
   return (
-    <div>
+    <div className="container-about">
       <p className="para">
-        Chào mừng đến với VietLuCoder - nơi tận hưởng cuộc phiêu lưu vô tận
-        trong thế giới của anime! KhoaWibu là một cộng đồng đam mê anime, nơi
-        chúng tôi đồng hành cùng bạn để khám phá những câu chuyện tuyệt vời,
-        những nhân vật đáng yêu và thế giới kỳ diệu của anime.<br></br>
-        Tại KhoaWibu, chúng tôi không chỉ cung cấp một kho lưu trữ phong phú với
-        hàng trăm bộ anime nổi tiếng, mà còn là nơi để bạn tìm kiếm những tác
-        phẩm mới nhất và thú vị nhất. Chúng tôi đảm bảo rằng bạn sẽ luôn cập
-        nhật với các bộ anime hot nhất và những bộ phim đang gây sốt trong cộng
-        đồng.<br></br>
-        Đội ngũ của chúng tôi là những người yêu thích anime và sẵn sàng chia sẻ
-        kiến thức, đánh giá, và bản dịch với bạn. Chúng tôi tận tâm với việc
-        mang đến cho bạn trải nghiệm xem anime tốt nhất, cùng với các bài viết
-        bình luận, phân tích sâu, và thông tin chi tiết về từng tập. Chúng tôi
-        còn cung cấp các dịch vụ xem anime trực tuyến đáng tin cậy và tiện lợi.
-        <br></br>
-        Hãy tham gia cùng chúng tôi trên cuộc hành trình đầy màu sắc và kỳ diệu
-        của anime. Hãy khám phá những thế giới tưởng tượng độc đáo, kết nối với
-        cộng đồng đam mê và đắm chìm trong những chuyến phiêu lưu không giới
-        hạn. KhoaWibu - Nơi niềm đam mê được thăng hoa và kết nối.<br></br>
-        Hãy bắt đầu chuyến hành trình của bạn cùng với chúng tôi và khám phá vô
-        số câu chuyện thần thánh, bí ẩn và trái tim nồng nhiệt của anime ngay
-        bây giờ!<br></br>
+        Xin chào bạn đã đến với trang web của chúng tôi. Đây là một trang web
+        chuyên cung cấp các bộ phim hoạt hình Nhật Bản (anime) mới nhất và đa
+        dạng về thể loại.<br></br>
+        Trang web của chúng tôi thường xuyên cập nhật những bộ phim anime mới ra
+        mắt trên các kênh truyền hình và rạp chiếu phim Nhật Bản. Bạn sẽ thấy ở
+        đây có các thể loại phổ biến như: shounen, shoujo, hài hước, hành động,
+        tình cảm lãng mạn và nhiều hơn nữa.<br></br>
+        Hầu hết các bộ phim đều được cập nhật phiên bản phụ đề tiếng Việt để
+        người xem dễ theo dõi nội dung. Bên cạnh đó, trang web cũng thường xuyên
+        cập nhật những tin tức và sự kiện mới nhất trong giới anime nhằm mang
+        đến cho người hâm mộ những trải nghiệm thú vị nhất.<br></br>
+        Chúc các bạn thật vui vẻ khi khám phá những bộ phim hay trên trang web
+        của chúng tôi. Hãy để lại những ý kiến đóng góp của mình nhé!<br></br>
       </p>
       <img src={image} className="img"></img>
     </div>
