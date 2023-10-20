@@ -6,7 +6,7 @@ import "./Films.css";
 //import icon
 import DarkModeIcon from "@mui/icons-material/DarkMode";
 import Brightness4Icon from "@mui/icons-material/Brightness4";
-import Lab4Tabs from "../Modal/navbar";
+
 const Films = () => {
   const [theme, setTheme] = useState(false);
 
@@ -24,9 +24,7 @@ const Films = () => {
 
   return (
     <div>
-      <div className="nav">
-        <Lab4Tabs />
-      </div>
+      <div className="nav"></div>
 
       <div className="body-container">
         <div className="toggleTheme">
