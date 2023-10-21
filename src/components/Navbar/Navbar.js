@@ -60,6 +60,8 @@ function Navbar({ theme }) {
             label="INDEX"
             style={{ color: tabTextColor }}
             {...a11yProps(0)}
+            component={Link}
+            to="/"
           />
           <Tab
             className="tab-text"
@@ -95,7 +97,7 @@ function Navbar({ theme }) {
           />
         </Tabs>
       </Box>
-      <CustomTabPanel value={value} index={0}>
+      {/* <CustomTabPanel value={value} index={0}>
         INDEX
       </CustomTabPanel>
       <CustomTabPanel value={value} index={1}>
@@ -109,7 +111,7 @@ function Navbar({ theme }) {
       </CustomTabPanel>
       <CustomTabPanel value={value} index={4}>
         CONTACT
-      </CustomTabPanel>
+      </CustomTabPanel> */}
     </Box>
   );
 }

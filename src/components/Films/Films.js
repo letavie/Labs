@@ -25,9 +25,7 @@ const Films = () => {
 
   return (
     <div className="container">
-      <div className="nav">
-        <Navbar theme={theme} />
-      </div>
+      <div className="nav">{/* <Navbar theme={theme} /> */}</div>
 
       <div className="body-container">
         <div className="toggleTheme">
