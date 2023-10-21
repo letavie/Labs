@@ -5,7 +5,7 @@ const filmsData = [
     title: "One Piece - Đảo Hải Tặc",
     year: "1999",
     nation: "Japan",
-    Description: `Mùa thứ 2 của Jujutsu Kaisen nè!`,
+    Description: `Đảo Hải Tặc - One Piece là chuyện về cậu bé Monkey D. Luffy do ăn nhầm Trái Ác Quỷ, bị biến thành người cao su và sẽ không bao giờ biết bơi. 10 năm sau sự việc đó, cậu rời quê mình và kiếm đủ 10 thành viên để thành một băng hải tặc, biệt hiệu Hải tặc Mũ Rơm. Khi đó của phiêu lưu tìm kiếm kho báu One Piece bắt đầu. Trong cuộc phiêu lưu tìm kiếm One Piece, băng Hải tặc mũ rơm phải chiến đấu với nhiều băng hải tặc xấu khác cũng muốn độc chiếm One Piece và Hải quân của Chính phủ muốn diệt trừ hải tặc. Băng Hải tặc Mũ Rơm phải trải qua biết bao nhiêu khó khăn, không lùi bước với ước mơ "Trở thành Vua Hải Tặc và chiếm được kho báu One Piece".`,
   },
   {
     id: 2,
@@ -13,7 +13,7 @@ const filmsData = [
     title: "Black Clover (TV)",
     year: "2017",
     nation: "Japan",
-    Description: `Mùa thứ 2 của Jujutsu Kaisen nè!`,
+    Description: `Asta và Yuno đã bị bỏ rơi cùng nhau tại cùng một nhà thờ và đã không thể tách rời kể từ đó. Khi còn trẻ, họ hứa sẽ cạnh tranh với nhau để xem ai sẽ trở thành Hoàng đế Magus tiếp theo. Tuy nhiên, khi chúng lớn lên, một số khác biệt giữa chúng trở nên đơn giản. Yuno là một thiên tài với ma thuật, với sức mạnh và khả năng kiểm soát tuyệt vời, trong khi Asta không thể sử dụng ma thuật chút nào, và cố gắng bù đắp cho sự thiếu hụt của mình bằng cách luyện tập thể chất. Khi họ nhận được Grimoa của họ ở tuổi 15, Yuno đã có một cuốn sách ngoạn mục với cỏ ba lá bốn lá (hầu hết mọi người đều có một cây cỏ ba lá), trong khi Asta không nhận được gì cả. Tuy nhiên, khi Yuno bị đe dọa, sự thật về sức mạnh của Asta đã được tiết lộ, anh đã nhận được một cây cỏ ba lá Grimoire, một cỏ ba lá đen! Bây giờ hai người bạn đang hướng tới trên thế giới, cả hai đều mong muốn cùng một mục tiêu!`,
   },
   {
     id: 3,
@@ -21,7 +21,7 @@ const filmsData = [
     title: "Thanh Gươm Diệt Quỷ",
     year: "2021",
     nation: "Japan",
-    Description: `Mùa thứ 2 của Jujutsu Kaisen nè!`,
+    Description: `Diễn biến của Kimetsu No Yaiba - Thanh Gươm Diệt Quỷ Season 3 sẽ dẫn đến cuộc đại chiến lớn là cuộc chạm trán với Thượng Huyền Ngũ và Thượng Huyền Tứ ở Làng Thợ Rèn.`,
   },
   {
     id: 4,
@@ -29,7 +29,7 @@ const filmsData = [
     title: "Thám Tử Lừng Danh Conan",
     year: "1996",
     nation: "Japan",
-    Description: `Mùa thứ 2 của Jujutsu Kaisen nè!`,
+    Description: `Mở đầu câu truyện, cậu học sinh trung học 17 tuổi Shinichi Kudo bị biến thành cậu bé Conan Edogawa. Shinichi trong phần đầu của Thám tử lừng danh Conan được miêu tả là một thám tử học đường xuất sắc. Trong một lần đi chơi công viên "Miền Nhiệt đới" với cô bạn từ thuở nhỏ Ran Mori, cậu tình cờ chứng kiến vụ một án giết người, Kishida - một hành khách trong trò chơi Chuyến tàu tốc hành đã bị giết một cách dã man. Cậu đã giúp cảnh sát làm sáng tỏ vụ án. Trên đường về nhà, cậu vô tình phát hiện một vụ làm ăn mờ ám của những người đàn ông mặc toàn đồ đen. Khi chúng phát hiện ra cậu, Shinichi đã bị đánh ngất đi. Sau đó những người đàn ông áo đen đó đã cho cậu uống một thứ thuốc độc chưa qua thử nghiệm là Apotoxin-4869 (APTX 4869) với mục đích thủ tiêu cậu.Tiến sĩ Agasa đã nói Conan là một người cháu của mình, nhưng hiện ông đang quá bận rộn không thể chăm sóc cho chú bé nên đã nhờ Ran trông nom Conan giúp mình. Ran nhận lời và từ đó Conan sống tại nhà của Ran tức văn phòng thám tử Mori, vừa che giấu thân phận vừa điều tra tung tích của Tổ chức Áo đen và tìm kiếm thuốc giải độc.`,
   },
   {
     id: 5,
@@ -37,7 +37,8 @@ const filmsData = [
     title: "Bleach",
     year: "2004",
     nation: "Japan",
-    Description: `Mùa thứ 2 của Jujutsu Kaisen nè!`,
+    Description: `Ichigo Kurosaki là một thiếu niên có khả năng nhìn thấy linh hồn. Cuộc sống của anh thay đổi nhanh chóng bởi sự xuất hiện đột ngột của một Soul Reaper-một trong những người điều chỉnh dòng chảy của linh hồn giữa thế giới con người và thế giới bên kia, tên là Kuchiki Rukia, người đến thế giới con người để tìm diệt Hollow, một linh hồn lạc lối rất nguy hiểm. Khi Rukia bị thương nặng vì bảo vệ Ichigo khỏi Hollow, cô cố gắng chuyển một nửa trong số năng lượng reiatsu (霊圧 ? , nghĩa đen, sức mạnh linh hồn) của cô cho Ichigo để anh có thể đánh bại Hollow. Tuy nhiên, Ichigo lấy gần như tất cả năng lượng của Rukia và biến đổi thành một Soul Reaper, cho phép anh đánh bại Hollow dễ dàng.
+    `,
   },
   {
     id: 6,
@@ -45,7 +46,7 @@ const filmsData = [
     title: "Đấu La Đại Lục",
     year: "2018",
     nation: "China",
-    Description: `Mùa thứ 2 của Jujutsu Kaisen nè!`,
+    Description: `Đấu La Đại Lục là một trong những tác phẩm đặc sắc của Đường Gia Tam Thiếu. Tác phẩm thuộc thể loại truyện Huyễn Hiệp, mang đến cho độc giả một cái nhìn, một cảm nhận mới về thế giới hiệp khách huyền ảo. Câu chuyện với nhân vật chính, con một thợ rèn, một thợ rèn trở thành tửu quỷ, vì thê tử đã mất, sẵn sàng lôi cuốn người đọc ngay từ những chương đầu tiên. Đấu La Thế Giới, một đại lục rộng lớn, cư dân đông đúc. Chức nghiệp cao quý nhật tại đây được gọi là Hồn Sư. Mỗi người sinh ra, đều có một vũ hồn bẩm sinh. `,
   },
   {
     id: 7,
@@ -53,7 +54,7 @@ const filmsData = [
     title: "Jujutsu Kaisen",
     year: "2020",
     nation: "Japan",
-    Description: `Mùa thứ 2 của Jujutsu Kaisen nè!`,
+    Description: `Trong một thế giới nơi những con quỷ ăn thịt người không nghi ngờ gì, những mảnh vỡ của con quỷ huyền thoại và đáng sợ Ryoumen Sukuna đã bị thất lạc và nằm rải rác. Nếu bất kỳ con quỷ nào tiêu thụ các bộ phận cơ thể của Sukuna, sức mạnh mà chúng có được có thể phá hủy thế giới như chúng ta đã biết. May mắn thay, có một ngôi trường bí ẩn của các Phù thủy Jujutsu tồn tại để bảo vệ sự tồn tại bấp bênh của người sống khỏi xác sống!Y`,
   },
   {
     id: 8,
@@ -61,7 +62,7 @@ const filmsData = [
     title: "Naruto: Sức Mạnh Vĩ Thú",
     year: "2007",
     nation: "Japan",
-    Description: `Mùa thứ 2 của Jujutsu Kaisen nè!`,
+    Description: `Tiếp nối phần I sau khi cậu bé cùng sư phụ Jiraiya của mình đi tập luyện xa trở về làng Lá. Sau khi huấn luyện 2 năm rưỡi với Jiraiya, Naruto trở về làng Lá, đoàn tụ với những người bạn cậu đã chia tay, và lập lại Nhóm 7, giờ được gọi là Nhóm Kakashi, với Sai thế chỗ Sasuke. Tất cả những người bạn của Naruto đều đã trưởng thành và thăng cấp, có người hơn người khác. Không giống như phần đầu khi chúng chỉ đóng vai trò phụ, tổ chức Akatsuki chiếm lấy vai trò đối nghịch chính trong tham vọng thống trị thế giới.`,
   },
   {
     id: 9,
@@ -69,7 +70,7 @@ const filmsData = [
     title: "Hunter x Hunter, HxH ",
     year: "2011",
     nation: "Japan",
-    Description: `Mùa thứ 2 của Jujutsu Kaisen nè!`,
+    Description: `Thợ Săn là những người đi chu du thế giới, đối mặt với hiểm nguy. Từ bắt giữ tội phạm cho đến nhưng cuộc thám hiểm trên các hòn đảo để tìm kho báu. Câu chuyện bắt đầu khi người cha của một cậu bé tên Gon mất tích đã khá lâu, nên cậu bé quyết định trở thành Thợ Săn với hy vọng tìm được cha mình. Khi được 12 tuổi Gon bắt đầu cuộc hành trình của mình để được tham gia vào "Cuộc thi Thợ Săn Kỳ Tài",`,
   },
 ];
 

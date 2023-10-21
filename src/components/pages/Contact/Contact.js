@@ -5,7 +5,7 @@ import insta from "../../../img/instagram-logo.svg";
 import "./Contact.css";
 function Contact() {
   return (
-    <div className="info">
+    <div className="infoC">
       <img src={avatar} className="avatar"></img>
       <p className="name">Lê Tấn Việt</p>
       <div className="logo">

@@ -16,22 +16,19 @@ const FilmDetail = () => {
 
   // Hiển thị thông tin chi tiết phim
   return (
-    <div className="container">
-      <div className="detail">
-        <div className="image">
-          <img src={film.image} alt={film.title} />
-        </div>{" "}
-        <br />
-        <div className="param">
-          <h2>{film.title}</h2>
-          <p>Year: {film.year}</p>
-          <p>Nation: {film.nation}</p>
+    <div className="film-detail">
+      <img src={film.image} />
+      <div className="info">
+        <div className="title">{film.title}</div>
+        <div className="year">
+          <span>Year of Manufacture : </span>
+          {film.year}
         </div>
-        <div className="backButton">
-          <Link className="back" to="/films">
-            <ArrowBackIcon />
-          </Link>
+        <div className="nation">
+          <span>Nation : </span>
+          {film.nation}
         </div>
+        <div className="des">{film.Description}</div>
       </div>
     </div>
   );

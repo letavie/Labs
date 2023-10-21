@@ -1,5 +1,6 @@
 .tabname .tab-text {
   justify-content: center;
+  color: rgb(9, 131, 7);
 }
 
 .tabname .tab-text:focus {
@@ -11,14 +12,9 @@
 }
 .tabname .tab-text:hover {
   background-color: rgb(156, 244, 148);
-  /* Các quy tắc CSS khi di chuột qua thẻ Tab được chọn */
 }
 .css-heg063-MuiTabs-flexContainer {
   justify-content: center;
-}
-/* Navbar.css */
-.tab-text {
-  color: black; /* Màu mặc định cho chữ */
 }
 
 .dark .tab-text {
